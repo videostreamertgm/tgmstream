@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TGMStream – Telegram Video Streaming APK</title>
-    <meta name="description" content="TGMStream APK for Android. Stream Telegram videos smoothly and easily. Fast, secure, and free download!">
-    <meta name="keywords" content="TGMStream APK, Telegram video streaming, Android APK, stream Telegram videos, free APK download">
+    <meta name="description" content="TGMStream APK for Android. Stream Telegram videos easily and securely. Dark mode interface, fast and free. Download now!">
+    <meta name="keywords" content="TGMStream APK, Telegram video streaming, Android APK, stream Telegram videos, free APK download, dark theme app">
     <meta name="author" content="TGMStream Team">
     <meta name="robots" content="index, follow">
 
@@ -16,7 +16,7 @@
         body {
             margin: 0;
             font-family: 'Roboto', sans-serif;
-            background: linear-gradient(to right, #4facfe, #00f2fe);
+            background-color: #121212; /* Dark background */
             color: #fff;
         }
 
@@ -24,53 +24,48 @@
         header {
             text-align: center;
             padding: 60px 20px 40px;
+            background-color: #1f1f1f;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.4);
         }
 
         header h1 {
             font-size: 3em;
             margin: 0;
-            text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+            color: #ff416c;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
         }
 
         header p {
             font-size: 1.2em;
             margin-top: 15px;
-            color: #e0f7ff;
+            color: #bbb;
         }
 
-        /* App Container */
+        /* Container */
         .container {
             max-width: 800px;
-            margin: auto;
-            background: rgba(255, 225, 255, 0.1);
+            margin: 40px auto;
+            background-color: #1e1e1e;
             padding: 40px;
             border-radius: 20px;
-            box-shadow: 0 8px 30px rgba(0,0,0,0.2);
-            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.5);
         }
 
-        /* App Logo Placeholder */
-        .logo {
+        /* App Icon */
+        .logo img {
             width: 120px;
             height: 120px;
-            background: #ff416c;
-            background: linear-gradient(to right, #ff4b2b, #ff416c);
-            border-radius: 30px;
+            border-radius: 20px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+            display: block;
             margin: 0 auto 20px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 36px;
-            font-weight: bold;
-            color: white;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
         }
 
         /* Description */
         .container p {
             font-size: 1.1em;
             line-height: 1.6em;
-            color: #e0f7ff;
+            color: #ccc;
             margin-bottom: 30px;
         }
 
@@ -84,13 +79,13 @@
             border-radius: 50px;
             font-weight: bold;
             text-decoration: none;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.5);
             transition: all 0.3s ease;
         }
 
         .download-btn:hover {
             transform: scale(1.05);
-            box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.6);
         }
 
         /* Features Section */
@@ -103,27 +98,27 @@
 
         .feature {
             width: 45%;
-            background: rgba(255,255,255,0.15);
+            background-color: #2a2a2a;
             padding: 20px;
             margin: 10px 0;
             border-radius: 15px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
         }
 
         .feature h3 {
             margin-top: 0;
-            color: #fff;
+            color: #ff416c;
         }
 
         .feature p {
-            color: #d0f0ff;
+            color: #ddd;
         }
 
         /* Note */
         .note {
             margin-top: 30px;
             font-size: 0.9em;
-            color: #ccefff;
+            color: #bbb;
         }
 
         /* Footer */
@@ -131,7 +126,7 @@
             text-align: center;
             padding: 20px;
             font-size: 0.8em;
-            color: #ccefff;
+            color: #777;
         }
 
         /* Responsive */
@@ -149,10 +144,13 @@
     </header>
 
     <div class="container">
-        <div class="logo">TGMstream</div>
-        <p>TGMStream lets you enjoy Telegram video streaming easily.</p> 
-        <p>Fast, secure, and completely free. Download the latest version now and start streaming!</p>
-        
+        <div class="logo">
+            <!-- Replace the src with your app icon image -->
+            <img src="app_icon.png" alt="TGMStream App Icon">
+        </div>
+
+        <p>TGMStream lets you enjoy Telegram video streaming easily. Fast, secure, and completely free. Download the latest version now and start streaming!</p>
+
         <a class="download-btn" href="PASTE_YOUR_GOOGLE_DRIVE_DIRECT_LINK_HERE">Download TGMStream APK</a>
 
         <div class="features">
@@ -161,12 +159,12 @@
                 <p>Enjoy instant playback of Telegram videos without buffering.</p>
             </div>
             <div class="feature">
-                <h3>Easy Navigation</h3>
-                <p>Browse your Telegram media with a simple, intuitive interface.</p>
+                <h3>Dark Mode</h3>
+                <p>Stream videos comfortably with our stylish dark-themed interface.</p>
             </div>
             <div class="feature">
                 <h3>Secure & Free</h3>
-                <p>No ads, no cost, and safe installation directly from APK.</p>
+                <p>No ads, completely free, and safe installation directly from APK.</p>
             </div>
             <div class="feature">
                 <h3>Latest Version</h3>
